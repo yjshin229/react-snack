@@ -1,0 +1,16 @@
+:root{
+  --main-pink: #FE929F;
+  --sub-pink: #FCDFF3;
+  --button-pink : #fcd3d1;
+  --beige: #ECE4E2;
+  --red: #EC1A1A;
+  --grey: #C4C4C4;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
