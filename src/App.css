@@ -5,10 +5,16 @@
   --beige: #ECE4E2;
   --red: #EC1A1A;
   --grey: #C4C4C4;
+  
 }
 
 .App {
   text-align: center;
+  font-family: 'IM_Hyemin-Regular';
+}
+
+body{
+  font-family: 'IM_Hyemin-Regular';
 }
 
 .App-link {

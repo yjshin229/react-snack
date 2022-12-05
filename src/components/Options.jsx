@@ -1,22 +1,24 @@
 import React from 'react'
 import styled from 'styled-components';
 
-const Option = styled.div`
+export const Option = styled.div`
    height: 35rem;
-   width: 40%;;
+   width: 40%;
    border: 3px dashed var(--beige);
    margin: 2rem 0rem 2rem 0rem;
    border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+   padding: 1rem
+   
 `;
 
-const ShopList = styled.div``
+export const OptionHeader = styled.div`
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: CBNUJIKJI
+`
 
-function Options() {
-  return (
-    <Option>
-
-    </Option>
-  )
-}
-
-export default Options;
+const ShopList = styled.div`
+`

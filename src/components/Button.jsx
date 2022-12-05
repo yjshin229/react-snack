@@ -1,17 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const MainButton = styled.button`
-    color: var(--button-pink);
-    font-size: 1rem;
+export const MainButton = styled.button`
+    background-color: var(--button-pink);
     border-radius: 6px;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    color: black;
+    font-weight: bold;
+    align-self: center;
+    cursor: pointer;
+    font-family: CBNUJIKJI;
+
+    &:hover {
+      background-color: var(--sub-pink);
+    }
 `
 
-function Button() {
+export const LightButton = () => {
   return (
-    <div>Button</div>
+    <MainButton></MainButton>
   )
 }
 
-export default Button
