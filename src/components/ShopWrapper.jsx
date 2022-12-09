@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import {Option, OptionHeader} from './Options'
+import Option from './Options'
 
 const Container = styled.div`
   display: flex;
@@ -12,15 +12,8 @@ const Container = styled.div`
 function ShopWrapper() {
   return (
    <Container>
-
-    <Option>
-      <OptionHeader>디저트</OptionHeader>
-    </Option>
-    
-    <Option>
-      <OptionHeader>음료</OptionHeader>
-    </Option>
-    
+      <Option name = {'디저트'}/>
+      <Option name = {'음료'}/>
    </Container>
   )
 }

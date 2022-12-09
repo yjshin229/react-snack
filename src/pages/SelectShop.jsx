@@ -14,7 +14,7 @@ function SelectShop() {
   return (
     <Container>
       <ShopWrapper/>
-      <MainButton style={{fontSize: '1.5rem'}}>오늘의 간식</MainButton>
+      <MainButton text = {'오늘의 간식'} size = {'1.5rem'}></MainButton>
     </Container>
       
   )
